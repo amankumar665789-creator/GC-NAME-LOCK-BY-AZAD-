@@ -3,12 +3,12 @@ const fs = require('fs');
 const express = require('express');
 
 const ig = new IgApiClient();
-const USERNAME = process.env.IG_USER || "username";
-const PASSWORD = process.env.IG_PASS || "password";
+const USERNAME = process.env.IG_USER || "azad__by1";
+const PASSWORD = process.env.IG_PASS || "@@@@10";
 
 // Group Info
-const THREAD_ID = "794932516795889"; // <--   group thread id 
-const LOCKED_NAME = " GROUP LOCKED ";
+const THREAD_ID = "https:2536438186737894"; // <--   group thread id 
+const LOCKED_NAME = " GROUP LOCKED  BY AZAD";
 
 // Express server (Render/Heroku ke liye)
 const app = express();
@@ -61,3 +61,4 @@ async function startLocker() {
 }
 
 startLocker();
+
